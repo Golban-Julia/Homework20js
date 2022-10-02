@@ -1,0 +1,31 @@
+
+$primaryColor:rgb(255, 42, 0);
+$bgColor:rgb(236, 255, 219);
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: $bgColor;
+}
+.container{
+    &__title{
+      color: $primaryColor;
+    }
+}
+
+.error {
+    border-color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+@import "~bootstrap/scss/bootstrap";
